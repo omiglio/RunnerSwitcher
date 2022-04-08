@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RunnerSwitcher.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1D9D19B8-41A6-4A77-96F8-3C65F35F5005}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RunnerSwitcher.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RunnerSwitcherEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{93D40DA1-46A5-42B9-BB80-79160338D284}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RunnerSwitcher">
+      <UniqueIdentifier>{82E7B07E-5D36-4FE1-9A75-E46427E426B4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RunnerSwitcher\RunnerSwitcher.Build.cs">
+      <Filter>Source\RunnerSwitcher</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RunnerSwitcher\RunnerSwitcher.cpp">
+      <Filter>Source\RunnerSwitcher</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RunnerSwitcher\RunnerSwitcher.h">
+      <Filter>Source\RunnerSwitcher</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RunnerSwitcher\RunnerSwitcherGameModeBase.cpp">
+      <Filter>Source\RunnerSwitcher</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RunnerSwitcher\RunnerSwitcherGameModeBase.h">
+      <Filter>Source\RunnerSwitcher</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

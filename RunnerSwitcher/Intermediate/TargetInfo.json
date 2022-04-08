@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "RunnerSwitcher",
+			"Path": "C:\\Users\\omigl\\Documents\\RunnerSwitcher\\RunnerSwitcher\\Source\\RunnerSwitcher.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "RunnerSwitcherEditor",
+			"Path": "C:\\Users\\omigl\\Documents\\RunnerSwitcher\\RunnerSwitcher\\Source\\RunnerSwitcherEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
