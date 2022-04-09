@@ -3,10 +3,13 @@
 /MACHINE:x64
 /SUBSYSTEM:WINDOWS
 /DEF
-/NAME:"UE4Editor-RunnerSwitcher.dll"
+/NAME:"UE4Editor-RunnerSwitcher-8658.dll"
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\RunnerSwitcherEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\GameBlockController.cpp.obj"
+"C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\MainGameMode.cpp.obj"
+"C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\RunnerController.cpp.obj"
 "C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\RunnerSwitcher.cpp.obj"
 "C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\RunnerSwitcherGameModeBase.cpp.obj"
 "C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\GameBlockController.gen.cpp.obj"
@@ -15,5 +18,5 @@
 "C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\RunnerSwitcher.init.gen.cpp.obj"
 "C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\RunnerSwitcherGameModeBase.gen.cpp.obj"
 "C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\Default.rc2.res"
-/OUT:"C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\UE4Editor-RunnerSwitcher.lib"
+/OUT:"C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\UE4Editor-RunnerSwitcher-8658.lib"
 /INCLUDE:IMPLEMENT_MODULE_RunnerSwitcher

@@ -70,8 +70,8 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Binaries\Win64\UE4Editor-RunnerSwitcher.dll"
-/IMPLIB:"C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\UE4Editor-RunnerSwitcher.suppressed.lib"
-/PDB:"C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Binaries\Win64\UE4Editor-RunnerSwitcher.pdb"
+/OUT:"C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Binaries\Win64\UE4Editor-RunnerSwitcher-5969.dll"
+/IMPLIB:"C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\UE4Editor-RunnerSwitcher-5969.suppressed.lib"
+/PDB:"C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Binaries\Win64\UE4Editor-RunnerSwitcher-5969.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_RunnerSwitcher
