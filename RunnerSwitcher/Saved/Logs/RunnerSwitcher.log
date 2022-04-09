@@ -787,3 +787,28 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.09-05.55.14:634][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
 [2022.04.09-05.55.14:823][  2]LogRenderer: Reallocating scene render targets to support 716x488 Format 10 NumSamples 1 (Frame:1).
 [2022.04.09-05.55.20:788][140]LogRenderer: Reallocating scene render targets to support 960x1044 Format 10 NumSamples 1 (Frame:141).
+[2022.04.09-05.56.06:464][795]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.09-05.56.06:472][795]Candidate modules for hot reload:
+[2022.04.09-05.56.06:472][795]  RunnerSwitcher
+[2022.04.09-05.56.06:472][795]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RunnerSwitcher,6705 RunnerSwitcherEditor Win64 Development -Project="C:/Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/RunnerSwitcher.uproject" "C:/Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/RunnerSwitcher.uproject"  -IgnoreJunk]
+[2022.04.09-05.56.06:475][795]Warning: Starting HotReload took  0.0s.
+[2022.04.09-05.56.46:879][731]CompilerResultsLog: New page: Compilation - Apr 8, 2022, 3:56:46 PM
+[2022.04.09-05.56.46:880][731]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\omigl\Documents\RunnerSwitcher).
+[2022.04.09-05.56.46:880][731]CompilerResultsLog: Creating makefile for RunnerSwitcherEditor (.uproject file is newer)
+[2022.04.09-05.56.46:880][731]CompilerResultsLog: Building RunnerSwitcherEditor...
+[2022.04.09-05.56.46:880][731]CompilerResultsLog: Using Visual Studio 2019 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.09-05.56.46:880][731]CompilerResultsLog: Building 11 actions with 16 processes...
+[2022.04.09-05.56.46:880][731]CompilerResultsLog:   [1/11] SharedPCH.Engine.ShadowErrors.cpp
+[2022.04.09-05.56.46:880][731]CompilerResultsLog:   Detected compiler newer than Visual Studio 2019, please update min version checking in WindowsPlatformCompilerSetup.h
+[2022.04.09-05.56.46:880][731]CompilerResultsLog:   [2/11] RunnerController.gen.cpp
+[2022.04.09-05.56.46:880][731]CompilerResultsLog:   C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Inc\RunnerSwitcher\RunnerController.gen.cpp(8): fatal error C1083: Cannot open include file: 'RunnerSwitcher/RunnerController.h': No such file or directory
+[2022.04.09-05.56.46:880][731]CompilerResultsLog:   [3/11] MainGameMode.gen.cpp
+[2022.04.09-05.56.46:880][731]CompilerResultsLog:   C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Inc\RunnerSwitcher\MainGameMode.gen.cpp(8): fatal error C1083: Cannot open include file: 'RunnerSwitcher/MainGameMode.h': No such file or directory
+[2022.04.09-05.56.46:880][731]CompilerResultsLog:   [4/11] RunnerSwitcherGameModeBase.cpp
+[2022.04.09-05.56.46:880][731]CompilerResultsLog:   [5/11] RunnerSwitcher.cpp
+[2022.04.09-05.56.46:880][731]CompilerResultsLog:   [6/11] RunnerSwitcherGameModeBase.gen.cpp
+[2022.04.09-05.56.46:880][731]CompilerResultsLog:   [7/11] GameBlockController.gen.cpp
+[2022.04.09-05.56.46:880][731]CompilerResultsLog:   C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Inc\RunnerSwitcher\GameBlockController.gen.cpp(8): fatal error C1083: Cannot open include file: 'RunnerSwitcher/GameBlockController.h': No such file or directory
+[2022.04.09-05.56.46:880][731]CompilerResultsLog:   [8/11] RunnerSwitcher.init.gen.cpp
+[2022.04.09-05.56.46:880][731]LogMainFrame: MainFrame: Module compiling took 40.416 seconds
+[2022.04.09-05.56.46:885][731]Warning: HotReload failed, recompile failed
