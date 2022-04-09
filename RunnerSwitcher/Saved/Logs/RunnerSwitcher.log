@@ -1289,3 +1289,195 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.09-01.35.40:112][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
 [2022.04.09-01.35.40:141][992]LogPlayLevel: Display: Destroying online subsystem :Context_8
 [2022.04.09-01.35.42:383][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.04.09-02.07.55:818][693]LogRenderer: Reallocating scene render targets to support 960x1076 Format 10 NumSamples 1 (Frame:16950).
+[2022.04.09-03.02.36:426][816]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.04.09-03.03.52:557][564]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/RunnerSwitcher.uproject" -game -rocket -progress
+[2022.04.09-03.03.53:064][564]Discovering modules, targets and source code for project...
+[2022.04.09-03.03.59:406][564]Binding IntelliSense data...
+[2022.04.09-03.04.02:236][564]Binding IntelliSense data... 100%
+[2022.04.09-03.04.02:236][564]Writing project files...
+[2022.04.09-03.04.09:382][564]Writing project files... 100%
+[2022.04.09-03.04.09:486][564]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.09-03.04.09:494][564]Candidate modules for hot reload:
+[2022.04.09-03.04.09:494][564]  RunnerSwitcher
+[2022.04.09-03.04.09:495][564]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RunnerSwitcher,2615 RunnerSwitcherEditor Win64 Development -Project="C:/Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/RunnerSwitcher.uproject" "C:/Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/RunnerSwitcher.uproject"  -IgnoreJunk]
+[2022.04.09-03.04.28:231][564]CompilerResultsLog: New page: Compilation - Apr 8, 2022, 1:04:28 PM
+[2022.04.09-03.04.28:231][564]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\omigl\Documents\RunnerSwitcher).
+[2022.04.09-03.04.28:231][564]CompilerResultsLog: Creating makefile for RunnerSwitcherEditor (no existing makefile)
+[2022.04.09-03.04.28:231][564]CompilerResultsLog: Parsing headers for RunnerSwitcherEditor
+[2022.04.09-03.04.28:231][564]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\RunnerSwitcher.uproject" "C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\RunnerSwitcherEditor\Development\RunnerSwitcherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\omigl\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.04.09-03.04.28:231][564]CompilerResultsLog: Reflection code generated for RunnerSwitcherEditor in 5.0194227 seconds
+[2022.04.09-03.04.28:231][564]CompilerResultsLog: Building RunnerSwitcherEditor...
+[2022.04.09-03.04.28:231][564]CompilerResultsLog: Using Visual Studio 2019 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.09-03.04.28:231][564]CompilerResultsLog: Building 11 actions with 16 processes...
+[2022.04.09-03.04.28:231][564]CompilerResultsLog:   [1/11] RunnerController.cpp
+[2022.04.09-03.04.28:231][564]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2022.04.09-03.04.28:231][564]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2022.04.09-03.04.28:231][564]CompilerResultsLog: 
+[2022.04.09-03.04.28:231][564]CompilerResultsLog: 
+[2022.04.09-03.04.28:231][564]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2022.04.09-03.04.28:231][564]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2022.04.09-03.04.28:231][564]CompilerResultsLog:   [2/11] RunnerSwitcher.cpp
+[2022.04.09-03.04.28:231][564]CompilerResultsLog:   [3/11] RunnerSwitcher.init.gen.cpp
+[2022.04.09-03.04.28:231][564]CompilerResultsLog:   [4/11] RunnerSwitcherGameModeBase.cpp
+[2022.04.09-03.04.28:231][564]CompilerResultsLog:   [5/11] MainGameMode.cpp
+[2022.04.09-03.04.28:231][564]CompilerResultsLog:   [6/11] MainGameMode.gen.cpp
+[2022.04.09-03.04.28:231][564]CompilerResultsLog:   [7/11] RunnerController.gen.cpp
+[2022.04.09-03.04.28:231][564]CompilerResultsLog:   [8/11] RunnerSwitcherGameModeBase.gen.cpp
+[2022.04.09-03.04.28:231][564]LogMainFrame: MainFrame: Module compiling took 18.746 seconds
+[2022.04.09-03.04.28:236][564]Warning: HotReload failed, recompile failed
+[2022.04.09-03.04.28:236][564]Warning: RebindPackages failed because compilation failed.
+[2022.04.09-03.07.14:667][564]LogSlate: Window 'Message' being destroyed
+[2022.04.09-03.07.14:676][564]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'MainGameMode', however you must recompile the 'RunnerSwitcher' module before it will appear in the Content Browser. Failed to automatically hot reload the 'RunnerSwitcher' module.
+
+Would you like to open the Output Log to see more details?
+[2022.04.09-03.07.14:689][564]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.04.09-03.07.17:067][748]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.09-03.07.17:071][748]Candidate modules for hot reload:
+[2022.04.09-03.07.17:071][748]  RunnerSwitcher
+[2022.04.09-03.07.17:071][748]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RunnerSwitcher,6838 RunnerSwitcherEditor Win64 Development -Project="C:/Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/RunnerSwitcher.uproject" "C:/Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/RunnerSwitcher.uproject"  -IgnoreJunk]
+[2022.04.09-03.07.17:073][748]Warning: Starting HotReload took  0.0s.
+[2022.04.09-03.07.20:048][917]CompilerResultsLog: New page: Compilation - Apr 8, 2022, 1:07:20 PM
+[2022.04.09-03.07.20:048][917]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\omigl\Documents\RunnerSwitcher).
+[2022.04.09-03.07.20:048][917]CompilerResultsLog: Building RunnerSwitcherEditor...
+[2022.04.09-03.07.20:048][917]CompilerResultsLog: Using Visual Studio 2019 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.09-03.07.20:048][917]CompilerResultsLog: Building 4 actions with 16 processes...
+[2022.04.09-03.07.20:048][917]CompilerResultsLog:   [1/4] RunnerController.cpp
+[2022.04.09-03.07.20:048][917]CompilerResultsLog:   [2/4] UE4Editor-RunnerSwitcher-6838.lib
+[2022.04.09-03.07.20:048][917]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\UE4Editor-RunnerSwitcher-6838.lib and object C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\UE4Editor-RunnerSwitcher-6838.exp
+[2022.04.09-03.07.20:048][917]CompilerResultsLog:   [3/4] UE4Editor-RunnerSwitcher-6838.dll
+[2022.04.09-03.07.20:048][917]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\UE4Editor-RunnerSwitcher-6838.suppressed.lib and object C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\UE4Editor-RunnerSwitcher-6838.suppressed.exp
+[2022.04.09-03.07.20:048][917]CompilerResultsLog:   [4/4] RunnerSwitcherEditor.target
+[2022.04.09-03.07.20:048][917]CompilerResultsLog: Total time in Parallel executor: 2.08 seconds
+[2022.04.09-03.07.20:048][917]CompilerResultsLog: Total execution time: 2.85 seconds
+[2022.04.09-03.07.20:049][917]LogMainFrame: MainFrame: Module compiling took 2.982 seconds
+[2022.04.09-03.07.25:357][917]LogClass: Could not find existing class MainGameMode in package /Script/RunnerSwitcher for HotReload, assuming new class
+[2022.04.09-03.07.25:361][917]LogHotReload: Re-instancing RunnerController after hot-reload.
+[2022.04.09-03.07.25:361][917]LogActor: Warning: RunnerController /Game/RS_Map.RS_Map:PersistentLevel.RunnerController_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.09-03.07.25:367][917]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'RunnerSwitcher' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2022.04.09-03.07.25:368][917]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.04.09-03.07.25:419][917]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0124 seconds. Added 3604 classes and 861 folders.
+[2022.04.09-03.07.25:419][917]Display: HotReload took  8.4s.
+[2022.04.09-03.07.28:683][129]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.04.09-03.07.28:687][129]Candidate modules for hot reload:
+[2022.04.09-03.07.28:687][129]  RunnerSwitcher
+[2022.04.09-03.07.28:687][129]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RunnerSwitcher,2320 RunnerSwitcherEditor Win64 Development -Project="C:/Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/RunnerSwitcher.uproject" "C:/Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/RunnerSwitcher.uproject"  -IgnoreJunk]
+[2022.04.09-03.07.28:689][129]Warning: Starting HotReload took  0.0s.
+[2022.04.09-03.07.30:793][279]CompilerResultsLog: New page: Compilation - Apr 8, 2022, 1:07:30 PM
+[2022.04.09-03.07.30:793][279]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\omigl\Documents\RunnerSwitcher).
+[2022.04.09-03.07.30:793][279]CompilerResultsLog: Building RunnerSwitcherEditor...
+[2022.04.09-03.07.30:793][279]CompilerResultsLog: Using Visual Studio 2019 14.31.31104 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.04.09-03.07.30:793][279]CompilerResultsLog: Building 3 actions with 16 processes...
+[2022.04.09-03.07.30:793][279]CompilerResultsLog:   [1/3] UE4Editor-RunnerSwitcher-2320.lib
+[2022.04.09-03.07.30:793][279]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\UE4Editor-RunnerSwitcher-2320.lib and object C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\UE4Editor-RunnerSwitcher-2320.exp
+[2022.04.09-03.07.30:793][279]CompilerResultsLog:   [2/3] UE4Editor-RunnerSwitcher-2320.dll
+[2022.04.09-03.07.30:793][279]CompilerResultsLog:      Creating library C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\UE4Editor-RunnerSwitcher-2320.suppressed.lib and object C:\Users\omigl\Documents\RunnerSwitcher\RunnerSwitcher\Intermediate\Build\Win64\UE4Editor\Development\RunnerSwitcher\UE4Editor-RunnerSwitcher-2320.suppressed.exp
+[2022.04.09-03.07.30:793][279]CompilerResultsLog:   [3/3] RunnerSwitcherEditor.target
+[2022.04.09-03.07.30:793][279]CompilerResultsLog: Total time in Parallel executor: 1.22 seconds
+[2022.04.09-03.07.30:793][279]CompilerResultsLog: Total execution time: 1.99 seconds
+[2022.04.09-03.07.30:793][279]LogMainFrame: MainFrame: Module compiling took 2.110 seconds
+[2022.04.09-03.07.31:243][279]LogHotReload: Re-instancing RunnerController after hot-reload.
+[2022.04.09-03.07.31:243][279]LogActor: Warning: RunnerController /Game/RS_Map.RS_Map:PersistentLevel.RunnerController_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.04.09-03.07.31:252][279]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'RunnerSwitcher' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.04.09-03.07.31:253][279]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.04.09-03.07.31:290][279]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0119 seconds. Added 3604 classes and 861 folders.
+[2022.04.09-03.07.31:290][279]Display: HotReload took  2.6s.
+[2022.04.09-03.09.37:535][295]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.09-03.09.37:547][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.09-03.09.37:547][295]PIE: New page: PIE session: RS_Map (Apr 8, 2022, 1:09:37 PM)
+[2022.04.09-03.09.37:547][295]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_RS_Map
+[2022.04.09-03.09.37:549][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002319s)
+[2022.04.09-03.09.37:551][295]LogAIModule: Creating AISystem for world RS_Map
+[2022.04.09-03.09.37:551][295]LogPlayLevel: PIE: World Init took: (0.001497s)
+[2022.04.09-03.09.37:551][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RS_Map.RS_Map to /Game/UEDPIE_0_RS_Map.RS_Map (0.003956s)
+[2022.04.09-03.09.37:555][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.04.09-03.09.37:557][295]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.04.09-03.09.37:558][295]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.09-03.09.37:558][295]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.09-03.09.37:558][295]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.09-03.09.37:558][295]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.09-03.09.37:558][295]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.09-03.09.37:558][295]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.09-03.09.37:558][295]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.09-03.09.37:558][295]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.09-03.09.37:558][295]LogAudio: Display: Using built-in audio occlusion.
+[2022.04.09-03.09.37:558][295]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.09-03.09.37:563][295]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.09-03.09.37:563][295]LogAudioMixer: Display: 1: FrontRight
+[2022.04.09-03.09.37:571][295]LogAudioMixer: Display: Using Audio Device Speakers (Elgato Sound Capture)
+[2022.04.09-03.09.37:571][295]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.09-03.09.37:571][295]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.09-03.09.37:571][295]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.09-03.09.37:572][295]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.09-03.09.37:572][295]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.09-03.09.37:572][295]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.09-03.09.37:589][295]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.09-03.09.37:589][295]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.09-03.09.37:589][295]LogInit: FAudioDevice initialized.
+[2022.04.09-03.09.37:589][295]LogAudio: Display: Audio Device (ID: 7) registered with world 'RS_Map'.
+[2022.04.09-03.09.37:596][295]LogLoad: Game class is 'GameModeBase'
+[2022.04.09-03.09.37:597][295]LogWorld: Bringing World /Game/UEDPIE_0_RS_Map.RS_Map up for play (max tick rate 0) at 2022.04.08-20.09.37
+[2022.04.09-03.09.37:598][295]LogWorld: Bringing up level for play took: 0.000650
+[2022.04.09-03.09.37:598][295]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2022.04.09-03.09.37:600][295]PIE: Server logged in
+[2022.04.09-03.09.37:601][295]PIE: Play in editor total start time 0.06 seconds.
+[2022.04.09-03.09.38:275][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.09-03.09.38:275][349]LogWorld: BeginTearingDown for /Game/UEDPIE_0_RS_Map
+[2022.04.09-03.09.38:275][349]LogWorld: UWorld::CleanupWorld for RS_Map, bSessionEnded=true, bCleanupResources=true
+[2022.04.09-03.09.38:276][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.09-03.09.38:285][349]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.09-03.09.38:296][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.09-03.09.38:300][349]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.09-03.09.38:300][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.09-03.09.38:301][349]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.09-03.09.38:321][349]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.09-03.09.38:323][349]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.04.09-03.09.38:360][350]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.04.09-03.17.29:622][600]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.04.09-03.17.42:092][600]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.04.09-03.17.42:098][600]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.04.09-03.17.42:107][600]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.04.09-03.17.57:489][567]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_MainGameMode
+[2022.04.09-03.17.57:598][567]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.04.09-03.18.00:504][721]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_MainGameMode.BP_MainGameMode
+[2022.04.09-03.18.00:996][721]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 126 classes and 0 folders.
+[2022.04.09-03.18.03:319][722]LogRenderer: Reallocating scene render targets to support 960x1240 Format 10 NumSamples 1 (Frame:1).
+[2022.04.09-03.18.07:437][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2022.04.09-03.18.07:455][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MainGameMode" FILE="../../../../../../Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/Content/BP_MainGameMode.uasset" SILENT=true
+[2022.04.09-03.18.07:474][ 75]LogSavePackage: Moving '../../../../../../Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/Saved/BP_MainGameMode21D32388425DDE13712D54B453BF187E.tmp' to '../../../../../../Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/Content/BP_MainGameMode.uasset'
+[2022.04.09-03.18.07:489][ 75]AssetCheck: New page: Asset Save: BP_MainGameMode
+[2022.04.09-03.18.07:489][ 75]LogContentValidation: Display: Validating Blueprint /Game/BP_MainGameMode.BP_MainGameMode
+[2022.04.09-03.18.13:648][575]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.04.09-03.18.18:269][996]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.04.09-03.18.18:293][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RS_Map" FILE="../../../../../../Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/Content/RS_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.09-03.18.18:309][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.04.09-03.18.18:319][996]LogSavePackage: Moving '../../../../../../Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/Saved/RS_MapCBB38C43460E9C5B31245993239F6145.tmp' to '../../../../../../Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/Content/RS_Map.umap'
+[2022.04.09-03.18.18:326][996]LogFileHelpers: Saving map 'RS_Map' took 0.033
+[2022.04.09-03.18.18:336][996]AssetCheck: New page: Asset Save: RS_Map
+[2022.04.09-03.18.18:336][996]LogContentValidation: Display: Validating World /Game/RS_Map.RS_Map
+[2022.04.09-03.18.29:091][836]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2022.04.09-03.18.47:844][295]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.09-03.18.53:863][295]LogSlate: Window 'Save Level As' being destroyed
+[2022.04.09-03.18.53:946][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLevel" FILE="../../../../../../Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/Content/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.09-03.18.53:967][295]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.04.09-03.18.53:977][295]LogSavePackage: Moving '../../../../../../Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/Saved/MainLevelAA5DF5AC406B4AE3FEB7B7A586A3CBF2.tmp' to '../../../../../../Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/Content/MainLevel.umap'
+[2022.04.09-03.18.53:985][295]LogFileHelpers: Saving map 'MainLevel' took 0.106
+[2022.04.09-03.18.53:987][295]Cmd: MAP LOAD FILE="../../../../../../Users/omigl/Documents/RunnerSwitcher/RunnerSwitcher/Content/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.04.09-03.18.54:007][295]LightingResults: New page: Lighting Build
+[2022.04.09-03.18.54:008][295]LoadErrors: New page: Loading map: MainLevel.umap
+[2022.04.09-03.18.54:009][295]LogWorld: UWorld::CleanupWorld for RS_Map, bSessionEnded=true, bCleanupResources=true
+[2022.04.09-03.18.54:009][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.09-03.18.54:009][295]MapCheck: New page: Map Check
+[2022.04.09-03.18.54:009][295]LightingResults: New page: Lighting Build
+[2022.04.09-03.18.54:026][295]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.09-03.18.54:029][295]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.04.09-03.18.54:030][295]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainLevel'.
+[2022.04.09-03.18.54:109][295]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.04.09-03.18.54:109][295]LogAIModule: Creating AISystem for world MainLevel
+[2022.04.09-03.18.54:132][295]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.04.09-03.18.54:152][295]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.04.09-03.18.54:153][295]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.2ms to complete.
+[2022.04.09-03.18.54:153][295]LogFileHelpers: Loading map 'MainLevel' took 0.167
+[2022.04.09-03.18.54:160][295]AssetCheck: New page: Asset Save: MainLevel
+[2022.04.09-03.18.54:160][295]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2022.04.09-03.18.59:574][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms

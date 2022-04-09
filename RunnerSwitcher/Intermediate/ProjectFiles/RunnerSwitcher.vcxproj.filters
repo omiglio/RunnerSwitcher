@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RunnerSwitcher.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{28B73312-B147-4C8E-B97E-7E5A5470B0F5}</UniqueIdentifier>
+      <UniqueIdentifier>{7302CA28-C904-49E1-BFDB-45E0626E2C4C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RunnerSwitcher.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{726AA80E-5F36-4B05-B622-61FEE4D5098A}</UniqueIdentifier>
+      <UniqueIdentifier>{50406B9C-5318-45CE-8FE2-6159893AB012}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -25,9 +25,18 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\RunnerSwitcher">
-      <UniqueIdentifier>{2051EDB6-81AD-4B17-84F7-DD0813D333FB}</UniqueIdentifier>
+      <UniqueIdentifier>{885FB2E6-1D0B-4146-95F8-ACE2D9280084}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\RunnerSwitcher\MainGameMode.cpp">
+      <Filter>Source\RunnerSwitcher</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RunnerSwitcher\MainGameMode.h">
+      <Filter>Source\RunnerSwitcher</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\RunnerSwitcher\RunnerController.cpp">
       <Filter>Source\RunnerSwitcher</Filter>
     </ClCompile>
