@@ -28,7 +28,7 @@ class RUNNERSWITCHER_API AMainGameMode : public AGameModeBase
 	float PointerHazardBlocks = 1000.0f;
 
 	UPROPERTY(EditAnywhere, Category = "Spawning")
-	TSubclassOf<class AGameBlockController>GrounddBlockBlueprint;
+	TSubclassOf<class AGameBlockController>GroundBlockBlueprint;
 
 	UPROPERTY(EditAnywhere, Category = "Spawning")
 	TSubclassOf<class AGameBlockController>HazardBlock1Blueprint;

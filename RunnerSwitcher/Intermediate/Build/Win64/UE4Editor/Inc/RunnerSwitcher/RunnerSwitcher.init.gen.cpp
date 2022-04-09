@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeRunnerSwitcher_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x782ADD70,
+				0xD1F8A718,
 				0xF0FA464F,
 				METADATA_PARAMS(nullptr, 0)
 			};

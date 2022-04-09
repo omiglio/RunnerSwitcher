@@ -26,7 +26,7 @@ void AMainGameMode::Tick(float DeltaTime)
 				0.0f);
 
 			AGameBlockController* block = World->SpawnActor<
-				AGameBlockController>(GrounddBlockBlueprint,
+				AGameBlockController>(GroundBlockBlueprint,
 				Location, FRotator::ZeroRotator);
 
 			PointerScenarioBlocks += block->Size;
