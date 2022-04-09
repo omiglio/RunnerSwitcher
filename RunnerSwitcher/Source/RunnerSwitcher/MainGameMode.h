@@ -21,5 +21,19 @@ class RUNNERSWITCHER_API AMainGameMode : public AGameModeBase
 	void OnGameOver();
 
 	int Score;
+
+	float FARTHEST_BLOCK_DISTANCE = 2000.0f;
+
+	float PointerScenarioBlocks = 1000.0f;
+	float PointerHazardBlocks = 1000.0f;
+
+	UPROPERTY(EditAnywhere, Category = "Spawning")
+	TSubclassOf<class AGameBlockController>GrounddBlockBlueprint;
+
+	UPROPERTY(EditAnywhere, Category = "Spawning")
+	TSubclassOf<class AGameBlockController>HazardBlock1Blueprint;
+
+	UPROPERTY(EditAnywhere, Category = "Spawning")
+	TSubclassOf<class AGameBlockController>HazardBlock2Blueprint;
 	
 };
